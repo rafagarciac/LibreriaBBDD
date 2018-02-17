@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- Api RestFull -->
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -30,7 +30,10 @@
         </activity>
         <activity android:name=".OperacionesBBDD" />
         <activity android:name=".ConsultarBBDD" />
-        <activity android:name=".Usuarios"></activity>
+        <activity android:name=".Usuarios" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
     </application>
 
 </manifest>

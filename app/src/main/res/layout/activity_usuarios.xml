@@ -287,4 +287,36 @@
         app:layout_constraintStart_toEndOf="@+id/tvNombre"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.159" />
+
+    <ImageButton
+        android:id="@+id/ibtnSiguiente"
+        android:layout_width="72dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnAnterior"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmpresa"
+        app:layout_constraintVertical_bias="0.289"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <ImageButton
+        android:id="@+id/ibtnAnterior"
+        android:layout_width="72dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnGoogleMaps"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmpresa"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/arrow_down_float" />
 </android.support.constraint.ConstraintLayout>
