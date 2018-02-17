@@ -8,7 +8,7 @@
     tools:context="com.example.pc_gaming.libreriabbdd.MainActivity">
 
     <TextView
-        android:id="@+id/tvTitulo"
+        android:id="@+id/tvTituloItem"
         android:layout_width="235dp"
         android:layout_height="46dp"
         android:layout_marginBottom="8dp"
@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloItem"
         app:layout_constraintVertical_bias="0.0" />
 
     <fragment

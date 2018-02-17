@@ -7,7 +7,7 @@
     tools:context="com.example.pc_gaming.libreriabbdd.OperacionesBBDD">
 
     <TextView
-        android:id="@+id/tvTitulo"
+        android:id="@+id/tvTituloItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -43,11 +43,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloItem"
         app:layout_constraintVertical_bias="0.184" />
 
     <TextView
-        android:id="@+id/tvNumPaginas"
+        android:id="@+id/tvNumPaginasItem"
         android:layout_width="192dp"
         android:layout_height="26dp"
         android:layout_marginBottom="8dp"
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.215"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloItem"
         app:layout_constraintVertical_bias="0.501" />
 
     <TextView
@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloItem"
         app:layout_constraintVertical_bias="0.046" />
 
     <TextView
@@ -141,7 +141,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toEndOf="@+id/tvTitulo"
+        app:layout_constraintStart_toEndOf="@+id/tvTituloItem"
         app:layout_constraintTop_toBottomOf="@+id/tvInsertar"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -192,7 +192,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tvConsultar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toEndOf="@+id/tvTitulo"
+        app:layout_constraintStart_toEndOf="@+id/tvTituloItem"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.453" />
 
@@ -209,7 +209,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tvConsultar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toEndOf="@+id/tvTitulo"
+        app:layout_constraintStart_toEndOf="@+id/tvTituloItem"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.241" />
 
@@ -243,7 +243,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNumPaginas"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumPaginasItem"
         app:layout_constraintVertical_bias="0.065" />
 
     <TextView
