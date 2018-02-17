@@ -10,5 +10,9 @@
             android:id="@+id/itemConsultar"
             android:title="Consultar" />
 
+        <item
+            android:id="@+id/itemUsers"
+            android:title="Usuarios" />
+
 
 </menu>

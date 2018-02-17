@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pc_gaming.libreriabbdd">
 
+    <!-- Google Maps -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Api RestFull -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -25,7 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".OperacionesBBDD" />
-        <activity android:name=".ConsultarBBDD"></activity>
+        <activity android:name=".ConsultarBBDD" />
+        <activity android:name=".Usuarios"></activity>
     </application>
 
 </manifest>
