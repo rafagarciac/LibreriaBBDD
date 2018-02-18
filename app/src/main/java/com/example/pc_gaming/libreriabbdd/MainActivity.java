@@ -107,6 +107,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 i = new Intent(this, Usuarios.class);
                 startActivity(i);
                 break;
+            case R.id.itemContacto:
+                i = new Intent(this, Contacto.class);
+                startActivity(i);
+                break;
         }
         return true;
     }

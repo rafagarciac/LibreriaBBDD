@@ -8,6 +8,10 @@
     <!-- Api RestFull -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Permisos de llamada y SMS -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,7 +37,8 @@
         <activity android:name=".Usuarios" />
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Contacto"></activity>
     </application>
 
 </manifest>
