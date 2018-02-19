@@ -29,7 +29,7 @@
         android:layout_width="292dp"
         android:layout_height="29dp"
         android:fontFamily="cursive"
-        android:text="Teléfono de contacto: 658266140"
+        android:text="Teléfono de contacto: 911344338"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

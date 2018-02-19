@@ -17,7 +17,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnMarkerDragListener {
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnMarkerDragListener{
 
 
     //FRAGMENT
@@ -109,6 +109,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 break;
             case R.id.itemContacto:
                 i = new Intent(this, Contacto.class);
+                startActivity(i);
+                break;
+            case R.id.itemProductos:
+                i = new Intent(this, ProductosyWeb.class);
                 startActivity(i);
                 break;
         }

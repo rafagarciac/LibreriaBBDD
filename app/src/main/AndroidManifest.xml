@@ -38,7 +38,8 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Contacto"></activity>
+        <activity android:name=".Contacto" />
+        <activity android:name=".ProductosyWeb"></activity>
     </application>
 
 </manifest>

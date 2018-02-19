@@ -18,5 +18,9 @@
             android:id="@+id/itemContacto"
             android:title="Contacto con la libreria" />
 
+        <item
+            android:id="@+id/itemProductos"
+            android:title="Productos y Web" />
+
 
 </menu>
